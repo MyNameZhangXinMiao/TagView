@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		512E64DD2AFB7A0D00EE3280 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 512E64DC2AFB7A0D00EE3280 /* AppDelegate.m */; };
+		512E64E02AFB7A0D00EE3280 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 512E64DF2AFB7A0D00EE3280 /* SceneDelegate.m */; };
+		512E64E32AFB7A0D00EE3280 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512E64E22AFB7A0D00EE3280 /* ViewController.m */; };
+		512E64E62AFB7A0D00EE3280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512E64E42AFB7A0D00EE3280 /* Main.storyboard */; };
+		512E64E82AFB7A0F00EE3280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512E64E72AFB7A0F00EE3280 /* Assets.xcassets */; };
+		512E64EB2AFB7A0F00EE3280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512E64E92AFB7A0F00EE3280 /* LaunchScreen.storyboard */; };
+		512E64EE2AFB7A0F00EE3280 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 512E64ED2AFB7A0F00EE3280 /* main.m */; };
+		512E64F82AFB7A0F00EE3280 /* ZXMTagListviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 512E64F72AFB7A0F00EE3280 /* ZXMTagListviewTests.m */; };
+		512E65022AFB7A0F00EE3280 /* ZXMTagListviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 512E65012AFB7A0F00EE3280 /* ZXMTagListviewUITests.m */; };
+		512E65042AFB7A0F00EE3280 /* ZXMTagListviewUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 512E65032AFB7A0F00EE3280 /* ZXMTagListviewUITestsLaunchTests.m */; };
+		512E65162AFB7A1D00EE3280 /* ZHTagListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 512E65122AFB7A1D00EE3280 /* ZHTagListView.m */; };
+		512E65172AFB7A1D00EE3280 /* TlTagListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 512E65142AFB7A1D00EE3280 /* TlTagListView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		512E64F42AFB7A0F00EE3280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 512E64D02AFB7A0D00EE3280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 512E64D72AFB7A0D00EE3280;
+			remoteInfo = ZXMTagListview;
+		};
+		512E64FE2AFB7A0F00EE3280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 512E64D02AFB7A0D00EE3280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 512E64D72AFB7A0D00EE3280;
+			remoteInfo = ZXMTagListview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		512E64D82AFB7A0D00EE3280 /* ZXMTagListview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXMTagListview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		512E64DB2AFB7A0D00EE3280 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		512E64DC2AFB7A0D00EE3280 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		512E64DE2AFB7A0D00EE3280 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		512E64DF2AFB7A0D00EE3280 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		512E64E12AFB7A0D00EE3280 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		512E64E22AFB7A0D00EE3280 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		512E64E52AFB7A0D00EE3280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		512E64E72AFB7A0F00EE3280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		512E64EA2AFB7A0F00EE3280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		512E64EC2AFB7A0F00EE3280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512E64ED2AFB7A0F00EE3280 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		512E64F32AFB7A0F00EE3280 /* ZXMTagListviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXMTagListviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		512E64F72AFB7A0F00EE3280 /* ZXMTagListviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXMTagListviewTests.m; sourceTree = "<group>"; };
+		512E64FD2AFB7A0F00EE3280 /* ZXMTagListviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXMTagListviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		512E65012AFB7A0F00EE3280 /* ZXMTagListviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXMTagListviewUITests.m; sourceTree = "<group>"; };
+		512E65032AFB7A0F00EE3280 /* ZXMTagListviewUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXMTagListviewUITestsLaunchTests.m; sourceTree = "<group>"; };
+		512E65112AFB7A1D00EE3280 /* ZHTagListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHTagListView.h; sourceTree = "<group>"; };
+		512E65122AFB7A1D00EE3280 /* ZHTagListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHTagListView.m; sourceTree = "<group>"; };
+		512E65142AFB7A1D00EE3280 /* TlTagListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TlTagListView.m; sourceTree = "<group>"; };
+		512E65152AFB7A1D00EE3280 /* TlTagListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TlTagListView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		512E64D52AFB7A0D00EE3280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512E64F02AFB7A0F00EE3280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512E64FA2AFB7A0F00EE3280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		512E64CF2AFB7A0D00EE3280 = {
+			isa = PBXGroup;
+			children = (
+				512E64DA2AFB7A0D00EE3280 /* ZXMTagListview */,
+				512E64F62AFB7A0F00EE3280 /* ZXMTagListviewTests */,
+				512E65002AFB7A0F00EE3280 /* ZXMTagListviewUITests */,
+				512E64D92AFB7A0D00EE3280 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		512E64D92AFB7A0D00EE3280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				512E64D82AFB7A0D00EE3280 /* ZXMTagListview.app */,
+				512E64F32AFB7A0F00EE3280 /* ZXMTagListviewTests.xctest */,
+				512E64FD2AFB7A0F00EE3280 /* ZXMTagListviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		512E64DA2AFB7A0D00EE3280 /* ZXMTagListview */ = {
+			isa = PBXGroup;
+			children = (
+				512E65102AFB7A1D00EE3280 /* Classes */,
+				512E65132AFB7A1D00EE3280 /* TlTagListView */,
+				512E64DB2AFB7A0D00EE3280 /* AppDelegate.h */,
+				512E64DC2AFB7A0D00EE3280 /* AppDelegate.m */,
+				512E64DE2AFB7A0D00EE3280 /* SceneDelegate.h */,
+				512E64DF2AFB7A0D00EE3280 /* SceneDelegate.m */,
+				512E64E12AFB7A0D00EE3280 /* ViewController.h */,
+				512E64E22AFB7A0D00EE3280 /* ViewController.m */,
+				512E64E42AFB7A0D00EE3280 /* Main.storyboard */,
+				512E64E72AFB7A0F00EE3280 /* Assets.xcassets */,
+				512E64E92AFB7A0F00EE3280 /* LaunchScreen.storyboard */,
+				512E64EC2AFB7A0F00EE3280 /* Info.plist */,
+				512E64ED2AFB7A0F00EE3280 /* main.m */,
+			);
+			path = ZXMTagListview;
+			sourceTree = "<group>";
+		};
+		512E64F62AFB7A0F00EE3280 /* ZXMTagListviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				512E64F72AFB7A0F00EE3280 /* ZXMTagListviewTests.m */,
+			);
+			path = ZXMTagListviewTests;
+			sourceTree = "<group>";
+		};
+		512E65002AFB7A0F00EE3280 /* ZXMTagListviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				512E65012AFB7A0F00EE3280 /* ZXMTagListviewUITests.m */,
+				512E65032AFB7A0F00EE3280 /* ZXMTagListviewUITestsLaunchTests.m */,
+			);
+			path = ZXMTagListviewUITests;
+			sourceTree = "<group>";
+		};
+		512E65102AFB7A1D00EE3280 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				512E65112AFB7A1D00EE3280 /* ZHTagListView.h */,
+				512E65122AFB7A1D00EE3280 /* ZHTagListView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		512E65132AFB7A1D00EE3280 /* TlTagListView */ = {
+			isa = PBXGroup;
+			children = (
+				512E65142AFB7A1D00EE3280 /* TlTagListView.m */,
+				512E65152AFB7A1D00EE3280 /* TlTagListView.h */,
+			);
+			path = TlTagListView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		512E64D72AFB7A0D00EE3280 /* ZXMTagListview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512E65072AFB7A0F00EE3280 /* Build configuration list for PBXNativeTarget "ZXMTagListview" */;
+			buildPhases = (
+				512E64D42AFB7A0D00EE3280 /* Sources */,
+				512E64D52AFB7A0D00EE3280 /* Frameworks */,
+				512E64D62AFB7A0D00EE3280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXMTagListview;
+			productName = ZXMTagListview;
+			productReference = 512E64D82AFB7A0D00EE3280 /* ZXMTagListview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		512E64F22AFB7A0F00EE3280 /* ZXMTagListviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512E650A2AFB7A0F00EE3280 /* Build configuration list for PBXNativeTarget "ZXMTagListviewTests" */;
+			buildPhases = (
+				512E64EF2AFB7A0F00EE3280 /* Sources */,
+				512E64F02AFB7A0F00EE3280 /* Frameworks */,
+				512E64F12AFB7A0F00EE3280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				512E64F52AFB7A0F00EE3280 /* PBXTargetDependency */,
+			);
+			name = ZXMTagListviewTests;
+			productName = ZXMTagListviewTests;
+			productReference = 512E64F32AFB7A0F00EE3280 /* ZXMTagListviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		512E64FC2AFB7A0F00EE3280 /* ZXMTagListviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512E650D2AFB7A0F00EE3280 /* Build configuration list for PBXNativeTarget "ZXMTagListviewUITests" */;
+			buildPhases = (
+				512E64F92AFB7A0F00EE3280 /* Sources */,
+				512E64FA2AFB7A0F00EE3280 /* Frameworks */,
+				512E64FB2AFB7A0F00EE3280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				512E64FF2AFB7A0F00EE3280 /* PBXTargetDependency */,
+			);
+			name = ZXMTagListviewUITests;
+			productName = ZXMTagListviewUITests;
+			productReference = 512E64FD2AFB7A0F00EE3280 /* ZXMTagListviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		512E64D02AFB7A0D00EE3280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					512E64D72AFB7A0D00EE3280 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					512E64F22AFB7A0F00EE3280 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 512E64D72AFB7A0D00EE3280;
+					};
+					512E64FC2AFB7A0F00EE3280 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 512E64D72AFB7A0D00EE3280;
+					};
+				};
+			};
+			buildConfigurationList = 512E64D32AFB7A0D00EE3280 /* Build configuration list for PBXProject "ZXMTagListview" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 512E64CF2AFB7A0D00EE3280;
+			productRefGroup = 512E64D92AFB7A0D00EE3280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				512E64D72AFB7A0D00EE3280 /* ZXMTagListview */,
+				512E64F22AFB7A0F00EE3280 /* ZXMTagListviewTests */,
+				512E64FC2AFB7A0F00EE3280 /* ZXMTagListviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		512E64D62AFB7A0D00EE3280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512E64EB2AFB7A0F00EE3280 /* LaunchScreen.storyboard in Resources */,
+				512E64E82AFB7A0F00EE3280 /* Assets.xcassets in Resources */,
+				512E64E62AFB7A0D00EE3280 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512E64F12AFB7A0F00EE3280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512E64FB2AFB7A0F00EE3280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		512E64D42AFB7A0D00EE3280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512E65162AFB7A1D00EE3280 /* ZHTagListView.m in Sources */,
+				512E65172AFB7A1D00EE3280 /* TlTagListView.m in Sources */,
+				512E64E32AFB7A0D00EE3280 /* ViewController.m in Sources */,
+				512E64DD2AFB7A0D00EE3280 /* AppDelegate.m in Sources */,
+				512E64EE2AFB7A0F00EE3280 /* main.m in Sources */,
+				512E64E02AFB7A0D00EE3280 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512E64EF2AFB7A0F00EE3280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512E64F82AFB7A0F00EE3280 /* ZXMTagListviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512E64F92AFB7A0F00EE3280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512E65042AFB7A0F00EE3280 /* ZXMTagListviewUITestsLaunchTests.m in Sources */,
+				512E65022AFB7A0F00EE3280 /* ZXMTagListviewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		512E64F52AFB7A0F00EE3280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 512E64D72AFB7A0D00EE3280 /* ZXMTagListview */;
+			targetProxy = 512E64F42AFB7A0F00EE3280 /* PBXContainerItemProxy */;
+		};
+		512E64FF2AFB7A0F00EE3280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 512E64D72AFB7A0D00EE3280 /* ZXMTagListview */;
+			targetProxy = 512E64FE2AFB7A0F00EE3280 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		512E64E42AFB7A0D00EE3280 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				512E64E52AFB7A0D00EE3280 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		512E64E92AFB7A0F00EE3280 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				512E64EA2AFB7A0F00EE3280 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		512E65052AFB7A0F00EE3280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		512E65062AFB7A0F00EE3280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		512E65082AFB7A0F00EE3280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZXMTagListview/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tl.ZXMTagListview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		512E65092AFB7A0F00EE3280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZXMTagListview/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tl.ZXMTagListview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		512E650B2AFB7A0F00EE3280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tl.ZXMTagListviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXMTagListview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZXMTagListview";
+			};
+			name = Debug;
+		};
+		512E650C2AFB7A0F00EE3280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tl.ZXMTagListviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXMTagListview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZXMTagListview";
+			};
+			name = Release;
+		};
+		512E650E2AFB7A0F00EE3280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tl.ZXMTagListviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZXMTagListview;
+			};
+			name = Debug;
+		};
+		512E650F2AFB7A0F00EE3280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tl.ZXMTagListviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZXMTagListview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		512E64D32AFB7A0D00EE3280 /* Build configuration list for PBXProject "ZXMTagListview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512E65052AFB7A0F00EE3280 /* Debug */,
+				512E65062AFB7A0F00EE3280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512E65072AFB7A0F00EE3280 /* Build configuration list for PBXNativeTarget "ZXMTagListview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512E65082AFB7A0F00EE3280 /* Debug */,
+				512E65092AFB7A0F00EE3280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512E650A2AFB7A0F00EE3280 /* Build configuration list for PBXNativeTarget "ZXMTagListviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512E650B2AFB7A0F00EE3280 /* Debug */,
+				512E650C2AFB7A0F00EE3280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512E650D2AFB7A0F00EE3280 /* Build configuration list for PBXNativeTarget "ZXMTagListviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512E650E2AFB7A0F00EE3280 /* Debug */,
+				512E650F2AFB7A0F00EE3280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 512E64D02AFB7A0D00EE3280 /* Project object */;
+}
