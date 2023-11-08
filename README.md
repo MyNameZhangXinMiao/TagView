@@ -1,9 +1,5 @@
 # 仿京东、淘宝展开/收起标签,支持自定义且自动适应宽高. 高度自定义.标签试图
 
-```
-pod 'ZHTagListView'
-```
-
 ## 使用方法：
 ``` 
 NSMutableArray *list = [NSMutableArray arrayWithObjects:
